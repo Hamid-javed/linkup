@@ -5,10 +5,10 @@ const ContactUs = () => {
   return (
     // header
     <div className="bg-[#1e6a8e] pb-20 lg:pb-40">
-      <div className="text-center py-10 lg:py-20 bg-gradient-to-t from-cyan-600 to-[#1e6a8e]-400 rounded mx-4 lg:mx-12">
-        <h1 className="text-4xl sm:text-5xl lg:text-[3.5rem] font-extrabold text-white">
+      <div className="text-center py-10 lg:py-20 bg-gradient-to-t from-cyan-600 to-[#1e6a8e]-500 rounded mx-4 lg:mx-12">
+        <span className="text-4xl sm:text-5xl lg:text-[3.5rem] font-extrabold text-white">
           Contact Us
-        </h1>
+        </span>
       </div>
 
       {/* lower part  */}
