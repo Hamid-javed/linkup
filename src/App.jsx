@@ -1,11 +1,18 @@
-import Intro from "./components/MainPage/Intro"
+// import AboutUs from "./pages/AboutUs"
+import ContactUs from "./pages/ContactUs"
+
+
 
 function App() {
 
   return (
     <>
-<Intro/>
-    </>
+    <div>
+    {/* <AboutUs/> */}
+    <ContactUs/>
+    </div>
+</>
+
   )
 }
 

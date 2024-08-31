@@ -1,10 +1,4 @@
-/* ./src/index.css */
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-*{
-  background-color: #1e698e;
-}
