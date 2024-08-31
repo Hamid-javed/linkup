@@ -1,16 +1,14 @@
-// import AboutUs from "./pages/AboutUs"
-import ContactUs from "./pages/ContactUs"
-
-
+import Intro from "./components/MainPage/Intro"
+import OurFeatures from "./components/MainPage/OurFeatures"
+import FeaturePage from "./pages/FeaturePage"
 
 function App() {
 
   return (
     <>
-    <div>
-    {/* <AboutUs/> */}
-    <ContactUs/>
-    </div>
+  <Intro/>
+  {/* <OurFeatures/> */}
+  <FeaturePage/>
 </>
 
   )
