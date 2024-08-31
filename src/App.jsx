@@ -1,13 +1,18 @@
+// import AboutUs from "./pages/AboutUs"
+import ContactUs from "./pages/ContactUs"
 
-import './App.css'
-import AboutUs from './pages/AboutUs'
+
 
 function App() {
 
   return (
     <>
-<AboutUs/>
-    </>
+    <div>
+    {/* <AboutUs/> */}
+    <ContactUs/>
+    </div>
+</>
+
   )
 }
 
