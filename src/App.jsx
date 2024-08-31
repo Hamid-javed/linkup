@@ -1,12 +1,10 @@
-
-import './App.css'
-import AboutUs from './pages/AboutUs'
+import Intro from "./components/MainPage/Intro"
 
 function App() {
 
   return (
     <>
-<AboutUs/>
+<Intro/>
     </>
   )
 }
