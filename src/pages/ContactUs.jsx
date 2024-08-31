@@ -45,13 +45,13 @@ const ContactUs = () => {
             Let's Connect- Your Voice is Important!
           </h2>
 <div>
-    <form onSubmit={onSubmit}>
-        <div>
+    <form >
+        {/* <div>
 <div><label htmlFor=""><span className="font-bold text-start">Name</span><input type="text" name="name" id="name" /></label></div>
 <div><label htmlFor=""><span className="font-bold text-start">Email</span><input type="email" name="email" id="email" /></label></div>
 <div><label htmlFor=""><span className="font-bold text-start">Message</span><input type="text" name="message" id="message" /></label></div>
 
-        </div>
+        </div> */}
 
 
     </form>
