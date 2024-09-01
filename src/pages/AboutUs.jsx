@@ -11,10 +11,8 @@ const AboutUs = () => {
       </div>
 
       <div className="flex flex-col lg:flex-row lg:justify-between mx-4 mt-8 lg:mt-16 lg:mx-12">
-        <div className="text-white lg:w-1/2">
-          <h2 className="font-extrabold text-3xl sm:text-4xl mb-4">
-            About Us
-          </h2>
+        <div className="text-white lg:w-1/2 lg:mt-20">
+          <h2 className="font-extrabold text-3xl sm:text-4xl mb-4">About Us</h2>
           <p className="text-base sm:text-lg text-justify">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
             dolor sit amet consectetur, adipisicing elit. Tempora, aliquam? Qui
@@ -25,16 +23,18 @@ const AboutUs = () => {
             Magnam, et. Vel nisi rerum non deleniti nesciunt distinctio, ratione
             aspernatur ex, nam magnam cum iusto tenetur quas quaerat ut mollitia
             harum laborum vero, fugit facere. Quo excepturi, doloremque quaerat
-            dolorem commodi nesciunt odio.
+            dolorem commodi nesciunt odio. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Sapiente aut aperiam, odit dolore
+            atque, aspernatur culpa deserunt porro eligendi voluptate
+            laudantium, asperiores explicabo. Qui sed voluptates laborum
+            mollitia harum atque fugiat eveniet deserunt dolor, id ex,
+            explicabo, voluptatum libero rerum. Lorem ipsum dolor sit, amet
+            consectetur adipisicing elit. At, consequatur!
           </p>
         </div>
 
         <div className="mt-8 lg:mt-0 lg:w-1/2 flex justify-center">
-          <img
-            src={img}
-            alt="About Us"
-            className="w-full h-auto rounded-lg"
-          />
+          <img src={img} alt="About Us" className="w-full h-auto rounded-lg" />
         </div>
       </div>
     </div>
