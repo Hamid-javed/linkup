@@ -35,7 +35,7 @@ const FeaturePage = () => {
     },
     {
       icon: <CiSearch className="text-4xl font-extrabold text-white" />,
-      title: "Search & descriptionovery",
+      title: "Search",
       description:
         "Easily find friends, hashtags, and explore new content. Easily find friends, hashtags, and trending topics. Explore new content and users based on your interests, making descriptionovery fun and effortless.",
     },
@@ -60,19 +60,32 @@ const FeaturePage = () => {
   ];
 
   return (
+    // <div className="bg-[#1e698e] py-10">
+    //   <div className="text-white text-2xl sm:text-3xl font-bold text-center"> Our Features</div>
+    //   <div className="p-10 w-full grid gap-6 grid-cols-3 items-start justify-items-center ">
+    //     {features.map((feature) => (
+    //       <OurFeatures
+    //         key={feature.title}
+    //         icon={feature.icon}
+    //         title={feature.title}
+    //         description={feature.description}
+    //       />
+    //     ))}
+    //   </div>
+    // </div>
     <div className="bg-[#1e698e] py-10">
-      <div className="text-white text-2xl sm:text-3xl font-bold text-center"> Our Features</div>
-      <div className="p-10 w-full grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 items-start justify-items-center ">
-        {features.map((feature) => (
-          <OurFeatures
-            key={feature.title}
-            icon={feature.icon}
-            title={feature.title}
-            description={feature.description}
-          />
-        ))}
-      </div>
-    </div>
+  <div className="text-white text-2xl sm:text-3xl font-bold text-center">Our Features</div>
+  <div className="p-10 w-full grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 items-start justify-items-center">
+    {features.map((feature) => (
+      <OurFeatures
+        key={feature.title}
+        icon={feature.icon}
+        title={feature.title}
+        description={feature.description}
+      />
+    ))}
+  </div>
+</div>
   );
 };
 

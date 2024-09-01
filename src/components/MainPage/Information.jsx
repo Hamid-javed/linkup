@@ -55,7 +55,7 @@ const Information = () => {
         width="100%"
         dotColor="#666"
         activeDotColor="#FFFFFF"
-        numDots={3}
+        numDots={7}
       />
     </div>
   );
