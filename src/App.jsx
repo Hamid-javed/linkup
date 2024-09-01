@@ -1,17 +1,18 @@
-import Intro from "./components/MainPage/Intro"
-import OurFeatures from "./components/MainPage/OurFeatures"
-import FeaturePage from "./pages/FeaturePage"
+import Information from "./components/MainPage/Information";
+import Intro from "./components/MainPage/Intro";
+import FeaturePage from "./pages/FeaturePage";
+
 
 function App() {
+ 
 
   return (
     <>
-  <Intro/>
-  {/* <OurFeatures/> */}
-  <FeaturePage/>
-</>
-
-  )
+      <Intro />
+      <FeaturePage />
+      <Information/>
+    </>
+  );
 }
 
-export default App
+export default App;
