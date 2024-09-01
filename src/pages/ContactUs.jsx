@@ -115,7 +115,7 @@ const ContactUs = () => {
               <button
                 type="submit"
                 onClick={onSubmit}
-                className="rounded-full outline font-medium hover:bg-[#1e6a8e] hover:text-[white] text-[#1e6a8e] py-2 px-8 shadow-sm bg-white focus:outline-none focus:ring-2 focus:ring-[#00aaff] focus:ring-opacity-20 transition"
+                className="rounded-full font-medium hover:bg-[#1e6a8e] hover:text-[white] text-[#1e6a8e] py-2 px-8 shadow-sm bg-white focus:outline-none focus:ring-2 focus:ring-[#00aaff] focus:ring-opacity-20 transition"
               >
                 Submit
               </button>
