@@ -33,7 +33,7 @@ const AboutUs = () => {
           <img
             src={img}
             alt="About Us"
-            className="w-full h-auto rounded-lg shadow-lg"
+            className="w-full h-auto rounded-lg"
           />
         </div>
       </div>
