@@ -1,5 +1,7 @@
+import Download from "./components/MainPage/Download";
 import Information from "./components/MainPage/Information";
 import Intro from "./components/MainPage/Intro";
+import JoinUs from "./components/MainPage/JoinUs";
 import FeaturePage from "./pages/FeaturePage";
 
 
@@ -11,6 +13,8 @@ function App() {
       <Intro />
       <FeaturePage />
       <Information/>
+      <JoinUs/>
+      <Download/>
     </>
   );
 }

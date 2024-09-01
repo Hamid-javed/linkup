@@ -1,5 +1,5 @@
 import React from "react";
-import Slider from "../../General/Slider";
+import Slider from "../General/Slider";
 
 
 const Information = () => {
