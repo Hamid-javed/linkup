@@ -1,20 +1,24 @@
-import Download from "./components/MainPage/Download";
-import Information from "./components/MainPage/Information";
-import Intro from "./components/MainPage/Intro";
-import JoinUs from "./components/MainPage/JoinUs";
-import FeaturePage from "./pages/FeaturePage";
+import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from "react-router-dom";
+import MainLayout from "./layout/MainLayout";
+import MainPage from "./pages/MainPage";
+
 
 
 function App() {
  
+  const router = createBrowserRouter(
+    createRoutesFromElements(
+      <>
+        <Route path="/" element={<MainLayout />}>
+          <Route index element={<MainPage />} />
+        </Route>
+      </>
+    )
+  );
 
   return (
     <>
-      <Intro />
-      <FeaturePage />
-      <Information/>
-      <JoinUs/>
-      <Download/>
+        <RouterProvider router={router} />;
     </>
   );
 }
