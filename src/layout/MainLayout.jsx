@@ -1,13 +1,12 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import Intro from "../components/MainPage/Intro";
+import Footer from "../components/MainPage/Footer";
 
 const MainLayout = () => {
   return (
     <>
-
       <Outlet />
-
+      <Footer />
     </>
   );
 };

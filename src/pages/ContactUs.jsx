@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import img from "../pages/image.png";
+import Download from "../components/MainPage/Download";
 
 const ContactUs = () => {
   const [result, setResult] = useState("");
@@ -123,6 +124,7 @@ const ContactUs = () => {
           </form>
         </div>
       </div>
+      <Download />
     </div>
   );
 };
