@@ -14,22 +14,18 @@ const AboutUs = () => {
         <div className="text-white lg:w-1/2 lg:mt-20">
           <h2 className="font-extrabold text-3xl sm:text-4xl mb-4">About Us</h2>
           <p className="text-base sm:text-lg text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
-            dolor sit amet consectetur, adipisicing elit. Tempora, aliquam? Qui
-            facilis repudiandae ab maxime iure expedita odit doloremque aliquam!
-            Dolorem, recusandae impedit tenetur alias sunt aliquid sed animi
-            veniam fugit expedita! Lorem ipsum, dolor sit amet consectetur
-            adipisicing elit. Commodi repellendus totam ducimus accusamus?
-            Magnam, et. Vel nisi rerum non deleniti nesciunt distinctio, ratione
-            aspernatur ex, nam magnam cum iusto tenetur quas quaerat ut mollitia
-            harum laborum vero, fugit facere. Quo excepturi, doloremque quaerat
-            dolorem commodi nesciunt odio. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Sapiente aut aperiam, odit dolore
-            atque, aspernatur culpa deserunt porro eligendi voluptate
-            laudantium, asperiores explicabo. Qui sed voluptates laborum
-            mollitia harum atque fugiat eveniet deserunt dolor, id ex,
-            explicabo, voluptatum libero rerum. Lorem ipsum dolor sit, amet
-            consectetur adipisicing elit. At, consequatur!
+            Linkup is a social media app that helps you connect with friends,
+            family, and people around the world. It offers features like
+            personalized feeds, customizable profiles, stories, reels, and event
+            management. With LinkUp, you can share, discover, and engage in
+            real-time. Join LinkUp to communicate easily, express yourself, and
+            interact with others all in one place. We believe in the power of
+            social media to bring people together and facilitate global
+            communication. LinkUp empowers users to express themselves, share
+            information, and interact with a broad audience in real-time. We aim
+            to offer all the features you desire in one place, making it easy to
+            stay connected with friends and family, share your life moments, and
+            discover new interests.
           </p>
         </div>
 
