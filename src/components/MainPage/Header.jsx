@@ -1,15 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="relative py-4 px-8 flex justify-between items-center">
+    <header className="relative md:pl-8 px-8 md:px-0 h-20 flex justify-between items-center bg-white">
       {/* Gradient background for the last 20% */}
-      <div className="absolute inset-y-0 right-0 w-1/5 bg-gradient-to-r from-cyan-600 to-[#1e6a8e] pointer-events-none" />
-
-      {/* White background for the first 80% */}
-      <div className="absolute inset-y-0 left-0 w-4/5 bg-white pointer-events-none" />
 
       <div className="relative z-10">
         <a href="/" className="font-bold text-2xl text-[#1e6a8e]">
@@ -42,9 +38,37 @@ const Header = () => {
         </ul>
       </nav>
 
-      <button className="bg-white hidden md:flex text-[#1e6a8e] font-medium py-2 px-4 rounded-full hover:bg-blue-100 transition-all duration-300 relative z-10">
+      <div className="h-20 w-[256] relative hidden md:flex">
+        <svg
+          className="h-full"
+          viewBox="0 0 256 80"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M256 0H42.0636L0 80H256V0Z"
+            fill="url(#paint0_linear_17_3)"
+          />
+          <defs>
+            <linearGradient
+              id="paint0_linear_17_3"
+              x1="0"
+              y1="40"
+              x2="256"
+              y2="40"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stopColor="#63A3B0" />
+              <stop offset="0.506667" stopColor="#238ABE" />
+            </linearGradient>
+          </defs>
+        </svg>
+        <button className="bg-white  absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-[#1e6a8e] font-medium py-2 px-4 rounded-full hover:bg-blue-100 transition-all duration-300 z-10">
         Download
       </button>
+      </div>
+
+     
 
       <div className="md:hidden relative z-10">
         <button onClick={() => setIsOpen(!isOpen)}>

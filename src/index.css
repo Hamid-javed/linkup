@@ -11,3 +11,12 @@ body{
   font-weight: 00;
   font-style: normal;
 }
+
+.bg-triangle {
+  background-image: url("assets/Images/triangle.svg");
+}
+
+.triangle-bottomright {
+  border-bottom: 50px solid red;
+  border-left: 50px solid transparent;
+}
