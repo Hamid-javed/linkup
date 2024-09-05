@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
+
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,32 +10,32 @@ const Header = () => {
       {/* Gradient background for the last 20% */}
 
       <div className="relative z-10">
-        <a href="/" className="font-bold text-2xl text-[#1e6a8e]">
+        <NavLink to="/" className="font-bold text-2xl text-[#1e6a8e]">
           LinkUp
-        </a>
+        </NavLink>
       </div>
 
       <nav className="hidden md:flex gap-4 relative z-10">
         <ul className="flex gap-4 font-bold text-[#1e6a8e]">
           <li>
-            <a href="/" className="hover:underline">
+            <NavLink to="/" className="hover:underline">
               Home
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="/features" className="hover:underline">
+            <NavLink to="/features" className="hover:underline">
               Features
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="/contact-us" className="hover:underline">
+            <NavLink to="/contact-us" className="hover:underline">
               Contact Us
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="/about-us" className="hover:underline">
+            <NavLink to="/about-us" className="hover:underline">
               About Us
-            </a>
+            </NavLink>
           </li>
         </ul>
       </nav>
@@ -93,22 +95,22 @@ const Header = () => {
         <nav className="absolute top-16 left-0 w-full bg-blue-500 p-4 md:hidden">
           <ul className="flex flex-col gap-4">
             <li>
-              <a href="/home" className="hover:underline">
+              <a to="/home" className="hover:underline">
                 Home
               </a>
             </li>
             <li>
-              <a href="/features" className="hover:underline">
+              <a to="/features" className="hover:underline">
                 Features
               </a>
             </li>
             <li>
-              <a href="/contact" className="hover:underline">
+              <a to="/contact" className="hover:underline">
                 Contact Us
               </a>
             </li>
             <li>
-              <a href="/about" className="hover:underline">
+              <a to="/about" className="hover:underline">
                 About Us
               </a>
             </li>
