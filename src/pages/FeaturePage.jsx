@@ -62,7 +62,7 @@ const FeaturePage = () => {
   return (
     <div className="bg-[#1e698e] py-10">
   <div className="text-white text-2xl sm:text-3xl font-bold text-center">Our Features</div>
-  <div className="p-10 w-full grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 items-start justify-items-center">
+  <div className="sm:p-10 py-8 px-2 w-full grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 items-start justify-items-center">
     {features.map((feature) => (
       <OurFeatures
         key={feature.title}
