@@ -16,7 +16,7 @@ const Header = () => {
       <nav className="hidden md:flex gap-4 relative z-10">
         <ul className="flex gap-4 font-bold text-[#1e6a8e]">
           <li>
-            <a href="/home" className="hover:underline">
+            <a href="/" className="hover:underline">
               Home
             </a>
           </li>
@@ -26,12 +26,12 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a href="/contact" className="hover:underline">
+            <a href="/contact-us" className="hover:underline">
               Contact Us
             </a>
           </li>
           <li>
-            <a href="/about" className="hover:underline">
+            <a href="/about-us" className="hover:underline">
               About Us
             </a>
           </li>

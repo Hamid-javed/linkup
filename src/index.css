@@ -20,3 +20,7 @@ body{
   border-bottom: 50px solid red;
   border-left: 50px solid transparent;
 }
+
+html{
+  scroll-behavior: smooth;
+}
