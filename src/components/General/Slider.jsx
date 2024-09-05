@@ -52,15 +52,6 @@ const Slider = ({
             {slide}
           </div>
         ))}
-        {/* {slides.map((slide, index) => (
-  <div
-    key={index}
-    className="inline-block w-full h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh] bg-[#1e698e] text-white text-center"
-    style={{ scrollSnapAlign: "start" }}
-  >
-    {slide}
-  </div>
-))} */}
 
       </div>
       <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
