@@ -4,45 +4,45 @@ import Slider from "../General/Slider";
 
 const Information = () => {
   const slides = [
-    <div className=" text-white text-center text-wrap ">
+    <div className=" text-white text-center  ">
       <div className="rotate-180 text-7xl font-extrabold">,,</div>
-      <div className="text-white text-2xl sm:text-3xl font-bold">
+      <div className="text-white text-2xl sm:text-3xl font-bold text-wrap">
         “Your Social Media Hub Awaits - Download LinkUp!”
       </div>
     </div>,
-    <div className=" text-white text-center text-wrap">
+    <div className=" text-white text-center ">
       <div className="rotate-180 text-7xl font-extrabold">,,</div>
-      <div className="text-white text-2xl sm:text-3xl font-bold">
+      <div className="text-white text-2xl sm:text-3xl font-bold text-wrap">
         “Stay Social, Stay Connected – Download LinkUp!"
       </div>
     </div>,
-    <div className=" text-white text-center text-wrap">
+    <div className=" text-white text-center ">
       <div className="rotate-180 text-7xl font-extrabold">,,</div>
-      <div className="text-white text-2xl sm:text-3xl font-bold">
+      <div className="text-white text-2xl sm:text-3xl font-bold text-wrap">
         “Start Your LinkUp Journey – Download the App Now!"
       </div>
     </div>,
-    <div className=" text-white text-center text-wrap">
+    <div className=" text-white text-center ">
       <div className="rotate-180 text-7xl font-extrabold">,,</div>
-      <div className="text-white text-2xl sm:text-3xl font-bold">
+      <div className="text-white text-2xl sm:text-3xl font-bold text-wrap">
         “Your Social Media Hub Awaits - Download LinkUp!”
       </div>
     </div>,
-    <div className=" text-white text-center text-wrap">
+    <div className=" text-white text-center ">
       <div className="rotate-180 text-7xl font-extrabold">,,</div>
-      <div className="text-white text-2xl sm:text-3xl font-bold">
+      <div className="text-white text-2xl sm:text-3xl font-bold text-wrap">
         “Connect and Share on the Go – Download LinkUp!"
       </div>
     </div>,
-    <div className=" text-white text-center text-wrap">
+    <div className=" text-white text-center ">
       <div className="rotate-180 text-7xl font-extrabold">,,</div>
-      <div className="text-white text-2xl sm:text-3xl font-bold">
+      <div className="text-white text-2xl sm:text-3xl font-bold text-wrap">
         "Experience LinkUp on the Go – Download Today!"
       </div>
     </div>,
-    <div className=" text-white text-center text-wrap">
+    <div className=" text-white text-center ">
       <div className="rotate-180 text-7xl font-extrabold">,,</div>
-      <div className="text-white text-2xl sm:text-3xl font-bold">
+      <div className="text-white text-2xl sm:text-3xl font-bold text-wrap">
         "Get Started with LinkUp – Download the App Now!"
       </div>
     </div>,
