@@ -31,14 +31,14 @@ const ContactUs = () => {
   return (
     <div className="bg-[#1e6a8e] ">
       {/* Header Section */}
-      <div className="text-center py-10 lg:py-20 bg-gradient-to-t from-cyan-600 to-[#1e6a8e]-500 rounded mx-4 lg:mx-12">
+      <div className="text-center py-10 lg:py-20 bg-gradient-to-b from-[#2276a0] to-[#63a3b0] rounded mx-4 lg:mx-12">
         <span className=" text-4xl sm:text-5xl lg:text-[3.5rem] font-extrabold text-white">
           Contact Us
         </span>
       </div>
 
       {/* Lower Part */}
-      <div className="flex flex-col lg:flex-row lg:justify-between justify-center mx-4 mt-8 lg:mt-16 lg:mx-12">
+      <div className="flex flex-col lg:flex-row lg:justify-between justify-center mx-4 mt-8 lg:mt-16 lg:mx-12 ">
         <div className="lg:w-1/2 mx-5 text-white flex flex-col justify-center">
           <h2 className="font-bold text-2xl sm:text-3xl mb-4">
             Let's Connect - Your Voice is Important!
@@ -59,7 +59,7 @@ const ContactUs = () => {
         </div>
 
         {/* Form Section */}
-        <div className="shadow-lg lg:w-[480px]  bg-gradient-to-t from-cyan-600 to-[#1e6a8e]-500 lg:h-[470px] md:w-1/2 sm:w-full mx-auto mt-10 lg:mt-5 p-10 pb-auto space-y-6">
+        <div className="shadow-lg lg:w-[480px]  bg-gradient-to-b from-[#2276a0] to-[#63a3b0] lg:h-[470px] md:w-1/2 sm:w-full mx-auto mt-10 lg:mt-5 p-10 pb-auto space-y-6">
           <form className="space-y-4">
             <div>
               <h2 className="text-white text-2xl font-bold sm:text-3xl mb-4 text-center">
