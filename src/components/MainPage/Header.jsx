@@ -12,7 +12,7 @@ const Header = () => {
       <div className="absolute inset-y-0 left-0 w-4/5 bg-white pointer-events-none" />
 
       <div className="relative z-10">
-        <a href="/" className="font-bold text-lg text-[#1e6a8e]">
+        <a href="/" className="font-bold text-2xl text-[#1e6a8e]">
           LinkUp
         </a>
       </div>
