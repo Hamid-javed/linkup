@@ -95,24 +95,24 @@ const Header = () => {
         <nav className="absolute top-16 left-0 w-full bg-blue-500 p-4 md:hidden">
           <ul className="flex flex-col gap-4">
             <li>
-              <a to="/home" className="hover:underline">
+              <NavLink to="/" className="hover:underline">
                 Home
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a to="/features" className="hover:underline">
+              <NavLink to="/features" className="hover:underline">
                 Features
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a to="/contact" className="hover:underline">
+              <NavLink to="/contact-us" className="hover:underline">
                 Contact Us
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a to="/about" className="hover:underline">
+              <NavLink to="/about-us" className="hover:underline">
                 About Us
-              </a>
+              </NavLink>
             </li>
           </ul>
         </nav>
